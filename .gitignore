@@ -11,17 +11,26 @@ build/
 venv/
 .venv/
 
-# Outputs generados
+# Outputs generados (solo archivos, no la carpeta)
 outputs/*.docx
+outputs/*.pdf
 
-# Activos de marca (privados)
-activos_de_marca/
+# Activos de marca (solo archivos, no la carpeta)
+activos_de_marca/*.png
+activos_de_marca/*.jpg
+activos_de_marca/*.jpeg
+activos_de_marca/*.svg
 assets/*.png
 assets/*.jpg
 assets/*.jpeg
 
 # Identidad de marca generada (datos sensibles)
 agent_docs/brand_identity.md
+
+# Conservar estructura de carpetas
+!activos_de_marca/.gitkeep
+!agent_docs/.gitkeep
+!outputs/.gitkeep
 
 # Claude memory
 .claude/memory/
