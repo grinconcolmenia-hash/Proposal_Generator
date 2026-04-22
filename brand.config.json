@@ -1,0 +1,53 @@
+{
+  "_instrucciones": "Llena los campos marcados con TODO. Los campos con valores ya definidos son defaults razonables — cámbialos si necesitas.",
+
+  "company": {
+    "name": "TODO: Nombre de tu empresa",
+    "tagline": "TODO: Slogan o descripción corta de tu empresa",
+    "website": ""
+  },
+
+  "proponent": {
+    "name": "TODO: Tu nombre completo",
+    "id_label": "C.C.",
+    "id_number": "TODO: Tu número de identificación"
+  },
+
+  "brand": {
+    "colors": {
+      "_nota": "Colores en formato HEX (#RRGGBB). Usa https://coolors.co para elegir tu paleta.",
+      "primary_dark": "#0D0D0D",
+      "accent_1": "#00FF57",
+      "accent_2": "#2244FF",
+      "body_text": "#1A1A1A",
+      "light_bg": "#F0FFF4",
+      "mid_gray": "#7A8899",
+      "white": "#FFFFFF"
+    },
+    "fonts": {
+      "primary": "Poppins",
+      "_nota_fonts": "Si no tienes Poppins instalada, cambia a 'Calibri' o cualquier fuente instalada en tu sistema.",
+      "fallback": "Calibri"
+    },
+    "theme": "T1_DarkPrestige",
+    "_nota_theme": "Opciones: T1_DarkPrestige (oscuro clásico), T2_ForestCorporate (verde corporativo), T3_NeonDuality (tech azul/neón)"
+  },
+
+  "assets": {
+    "_nota": "Pon tu logo y banner en la carpeta assets/ y escribe el nombre del archivo aquí.",
+    "logo_light": "logo_light.png",
+    "_nota_logo_light": "Logo para fondos OSCUROS — versión blanca o clara del logo",
+    "logo_dark": "logo_dark.png",
+    "_nota_logo_dark": "Logo para fondos CLAROS — versión normal/color del logo",
+    "banner": "banner.png",
+    "_nota_banner": "Banner de cierre que aparece al final del documento (~17 cm de ancho)",
+    "assets_base_path": "./assets/"
+  },
+
+  "defaults": {
+    "validity_days": 30,
+    "output_dir": "./outputs/",
+    "language": "es",
+    "currency": "COP"
+  }
+}

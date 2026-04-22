@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Outputs generados
+outputs/*.docx
+
+# Activos de marca (privados)
+activos_de_marca/
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+
+# Identidad de marca generada (datos sensibles)
+agent_docs/brand_identity.md
+
+# Claude memory
+.claude/memory/
+
+# OS
+.DS_Store
+Thumbs.db
