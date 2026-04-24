@@ -84,6 +84,12 @@ El agente pregunta los datos que falten, muestra un preview y genera el `.docx`.
 
 ---
 
+## Recursos adicionales
+
+- [Tutorial en video — Cómo usar ProposalCraft](tutorial/README.md) ([Ver en YouTube](https://www.youtube.com/watch?v=7YFhEZ2oXRw))
+
+---
+
 ## Licencia
 
 MIT — libre de usar, modificar y distribuir.
